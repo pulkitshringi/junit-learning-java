@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseStringTest {
     @Test
-    public void test(){
+    void test() {  // using Junit 5
         ReverseString obj = new ReverseString();
         assertEquals("ikoop", obj.reverseString("pooki"));
         assertEquals("apap", obj.reverseString("papa"));

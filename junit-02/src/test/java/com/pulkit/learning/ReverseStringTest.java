@@ -9,6 +9,5 @@ public class ReverseStringTest {
     public void test(){
         ReverseString obj = new ReverseString();
         assertEquals("ikoop", obj.reverseString("pooki"));
-        assertEquals("mitu", obj.reverseString("dhoop"));
     }
 }
